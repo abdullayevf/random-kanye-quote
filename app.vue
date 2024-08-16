@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const url = 'https://api.kanye.rest/text'
 
-const { error,pending, data: quote } = await useFetch(url, { lazy: true })
+const { error, pending, data: quote } = await useFetch(url, { lazy: true })
 
 async function fetQuotes() {
 	const { error, pending, data: quotee } = await useFetch(url, { lazy: true })
@@ -46,7 +46,12 @@ async function fetQuotes() {
 
 				<!-- Error message -->
 
-				<p v-if="error" class="text-red-600 bg-red-200 absolute top-4 right-4 border-red-600 inline-block px-6 rounded-md py-4">{{ error.cause }}</p>
+				<p
+					v-if="error"
+					class="text-red-600 bg-red-200 absolute top-4 right-4 border-red-600 inline-block px-6 rounded-md py-4"
+				>
+					{{ error.cause }}
+				</p>
 			</div>
 		</div>
 	</div>

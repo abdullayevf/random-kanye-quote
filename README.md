@@ -1,76 +1,22 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Logo](/materials/banner.png)
 
-## Setup
 
-Make sure to install the dependencies:
+# Kanye Quotes
 
-```bash
-# npm
-npm install
+This project is here to inspire people with a Kanye quote at a time.
 
-# pnpm
-pnpm install
 
-# yarn
-yarn install
+## Features
 
-# bun
-bun install
-```
+- refresh button for a new quote
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
+## Demo
 
-```bash
-# npm
-npm run dev
+[link](random-kanye-quote-omega.vercel.app)
 
-# pnpm
-pnpm run dev
 
-# yarn
-yarn dev
+#
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# random-kanye-quote
+[![Nuxt.js](https://img.shields.io/badge/Nuxt.js-002E3B?logo=nuxtdotjs&logoColor=#00DC82)](#)
